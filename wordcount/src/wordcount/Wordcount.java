@@ -21,7 +21,7 @@ public class Wordcount {
     public static void main(String[] args) throws FileNotFoundException {
       //HashMap<String, Integer> map = new HashMap<String, Integer>();
         Map<String, Integer> map= new TreeMap<String, Integer>();
-        Scanner txtFile= new Scanner(new File("G:\\demo.txt"));
+        Scanner txtFile= new Scanner(new File("G:\\atpm.txt"));
         while(txtFile.hasNext()){
             String word= txtFile.next();
             if(map.containsKey(word)){
